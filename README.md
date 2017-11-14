@@ -18,14 +18,9 @@
     npm install lodash
 ```
 - At this point, make sure to have a file called ```.gitignore``` (no extension) in the project folder and to write ```node_modules``` on a new line inside that file. If the file is not there, create it and type ```node_modules``` inside. This will ensure Git ignores the node_modules folder and does not push it to GitHub. It is bad practice to put this folder (which can be very large) on GitHub. 
-<details> <summary> Contents of .gitignore file </summary> 
-
 ```js
     node_modules
 ```
-</details>
-<br />
-
 - Use ```npm install``` to use the ```package.json``` file to determine what dependencies are required by the project and download them. Even though we use ```.gitignore``` to prevent ```node_modules``` from being pushed to GitHub, our ```package.json``` file is NOT ignored and IS pushed to GitHub, so when other coders clone our project, the ```package.json``` will be downloaded along with the project. They can then run ```npm install``` in their command line editor, which will use the dependencies listed in the ```package.json``` to download all the necessary packages to each coders computer. That way, everyone has easy access to the required packages without storing huge folders on GitHub.
 ```js
     npm install
