@@ -17,9 +17,9 @@
 - At this point, make sure to have a file called ```.gitignore``` (no extension) in the project folder and to write ```node_modules``` on a new line inside that file. If the file is not there, create it and type ```node_modules``` inside. This will ensure Git ignores the node_modules folder and does not push it to GitHub. It is bad practice to put this folder (which can be very large) on GitHub. 
 <details> <summary> .gitignore file </summary> 
 
-    ```js
-        node_modules
-    ```
+```js
+    node_modules
+```
 </details>
 <br />
 
