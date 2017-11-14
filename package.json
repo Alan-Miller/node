@@ -1,8 +1,8 @@
 {
   "name": "node",
   "version": "1.0.0",
-  "description": "- Node is the JS engine outside the browser. - npm is a Node Package Manager that lets you download and manage code packages other coders have written which you want to use in your project.",
-  "main": "javascript.js",
+  "description": "- Node is the JS engine outside the browser. - npm is a Node package manager that lets you download and manage code packages other coders have written which you want to use in your project.",
+  "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -17,6 +17,7 @@
   },
   "homepage": "https://github.com/Alan-Miller/node#readme",
   "dependencies": {
+    "express": "^4.16.2",
     "lodash": "^4.17.4"
   }
 }
