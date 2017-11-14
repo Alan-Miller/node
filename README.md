@@ -3,8 +3,8 @@
 - npm is a Node package manager that lets you download and manage code packages other coders have written which you want to use in your project.
 
 ### Points to cover:
-- How to run JS in the command line editor (e.g., Terminal).
-- How to run a file using Node.
+- Run JS in the command line editor (e.g., Terminal).
+- Run a file using Node.
 - ```package.json``` file holds metadata relevant to your project, including information about packages your project depends (i.e., your "dependencies").
 - ```npm init``` to create package.json file. Hit ```Return``` several times afterward to skip ahead and say OK to the setup questions. Alternatively, instead of typing ```npm init```, type ```npm init -y``` to skip those questions.
 - ```npm install package-name``` to install the package by name. This makes the package appear under the "dependencies" property in the ```package.json``` file.
