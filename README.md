@@ -5,6 +5,9 @@
 ### Points to cover:
 - Run JS in the command line editor (e.g., Terminal).
 - Run a file using Node.
+```js
+    node index.js
+```
 - The ```package.json``` file holds metadata relevant to our project, including information about packages our project depends (i.e., our "dependencies").
 - Use ```npm init``` to create package.json file. Hit ```Return``` several times afterward to skip ahead and say OK to the setup questions. Alternatively, instead of typing ```npm init```, type ```npm init -y``` to skip those questions.
 ```js 
@@ -15,7 +18,7 @@
     npm install lodash
 ```
 - At this point, make sure to have a file called ```.gitignore``` (no extension) in the project folder and to write ```node_modules``` on a new line inside that file. If the file is not there, create it and type ```node_modules``` inside. This will ensure Git ignores the node_modules folder and does not push it to GitHub. It is bad practice to put this folder (which can be very large) on GitHub. 
-<details> <summary> .gitignore file </summary> 
+<details> <summary> Contents of .gitignore file </summary> 
 
 ```js
     node_modules
