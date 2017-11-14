@@ -18,7 +18,7 @@
     npm install lodash
 ```
 - At this point, make sure to have a file called ```.gitignore``` (no extension) in the project folder and to write ```node_modules``` on a new line inside that file. If the file is not there, create it and type ```node_modules``` inside. This will ensure Git ignores the node_modules folder and does not push it to GitHub. It is bad practice to put this folder (which can be very large) on GitHub. 
-#####    inside .gitignore file:
+    Inside .gitignore file:
 ```js
     node_modules
 ```
@@ -33,6 +33,7 @@
 - Use ```var someVariable = require('some-node-modules-package');```
     - This syntax is how we reference a package we downloaded.
     - We require a node package by just using its name as it appears in the ```node_modules``` folder, surrounded by quotation marks. Notice there is no ```./```, which is what we would use to point to a file right in the same folder.
+    Inside index.js file:
 ```js
     var lodash = require('lodash');
 ```
