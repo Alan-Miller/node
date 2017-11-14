@@ -1,0 +1,22 @@
+{
+  "name": "node",
+  "version": "1.0.0",
+  "description": "- Node is the JS engine outside the browser. - npm is a Node Package Manager that lets you download and manage code packages other coders have written which you want to use in your project.",
+  "main": "javascript.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Alan-Miller/node.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Alan-Miller/node/issues"
+  },
+  "homepage": "https://github.com/Alan-Miller/node#readme",
+  "dependencies": {
+    "lodash": "^4.17.4"
+  }
+}
