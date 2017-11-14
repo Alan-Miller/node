@@ -34,7 +34,6 @@
 - Use ```var someVariable = require('some-node-modules-package');```
     - This syntax is how we reference a package we downloaded.
     - We require a node package by just using its name as it appears in the ```node_modules``` folder, surrounded by quotation marks. Notice there is no ```./```, which is what we would use to point to a file right in the same folder.
-    
     Inside .gitignore file:
 ```js
     var lodash = require('lodash');
